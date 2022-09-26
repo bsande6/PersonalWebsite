@@ -1,5 +1,4 @@
 <html>
-<body>
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,48 +8,79 @@
 </head>
 <body>
   <div class="navbar">
-      <div class="icon">
+      <!-- <div class="icon">
           <h2 class="logo">Webpage Design</h2>
-      </div>
+      </div> -->
 
       <div class="menu">
           <ul>
               <li><a href="index.html">HOME</a></li>
               <li><a href="index.html#about-section">ABOUT</a></li>
               <li><a href="index.html#experience-section">EXPERIENCE</a></li>
+              <li><a href="index.html#projects-section">PROJECTS</a></li>
               <li><a href="index.html#awards-section">AWARDS</a></li>
               <li><a href="index.html#skills-section">SKILLS</a></li>
+              <li><a href="index.html#interests-section">INTERESTS</a></li>
+              <li><a href="index.html#contact-section">CONTACT</a></li>
           </ul>
       </div>
   </div>
 
  
   <section id="home-section" class="body">
-    <div class="center">
+    
+    <div class="left">
+      <img src="media/background.jpg" alt="background" width="100%" height="80%">
+      <img src="media/Headshot.jpg" alt="Headshot" class="user-img.overlay" align="right" width="300" height="400", z-index="1">
       <h1 align="center"> Brad Sanders</h1>
+      <h2 align="center"> Software Developer</h2>
     </div>
+      
+    </div>
+    </section>
+    </section>
   </section>
 
-  
-  Software Developer
   <section id="about-section" class="body">
     <div class="center">
       <h1 align="center"> About </h1>
+      <p align="center">
+        I am a Master's student in Computer Science at Clemson University and have an upcoming graduation in December. 
+        My focus area is in software engineering and I additionally have experience with machine learning.
+      </p>
     </div>
-    <p> 
-      I am a Computer Science Masters student graduating in December
-    </p>
   </section>
 
   <section id="experience-section" class="section">
     <div class="center">
       <h1 align="center"> Experience </h1>
-    </div>
-    <div class="right">
-      <p>
+      <div class="timeline">
+        <div class="container left">
+          <div class="content" style="clear: both">
+            <h3 style="float: right">August 2021 - Present</h3>
+            <h2>Graduate Research Assistant</h2>
+            <p>
+                <li> Autonomy related research position where I utilize deep 
+                  learning to translate sensor data from alternate camera viewpoints to a front camera viewpoint which serves as an input to produce vehicular controls.</li>
+                <li> Utilized the Carla simulator to collect data, train imitation learning models and GANs and then validate and test these models. </li>
+            </p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h3 style="float: right">February 2021 - July2021</h3>
+            <h2> Web Development Intern</h2>
+            <p>
+              <li> Maintained and Updated the Open edX platform which runs in docker containers, and the code follows the Django framework.  
+              <li> Updated fields in a Qualtrics survey and added functionality to add and record grades on the survey as well as implemented functionality to accept OAuth bearer tokens for authentication.</li>
+              </p>
+          </div>
+        </div>
+      </div>
+      <!-- <h3 align="left" margin-left="50">
         Clemson University - Graduate Research Assistant (Aug 2021 - Dec 2022)
-      </p>
-    </div>
+      </h3> -->
+    </div>    
   </section>
 
   <section id="awards-section" class="body">
@@ -64,12 +94,23 @@
       <h1 align="center"> Skills </h1>
     </div>
   </section>
- 
-  <!-- 2. Experience (option a link to a new page or a new spot on the current page)
-    <br> 2a. List experiences and provide detail.  (include videos, links, etc.)<br>
-  3. Awards 
-    <br> 4. Education
-    <br> 5. Skills <br>
-    6. Other -->
+
+  <section id="interest-section" class="body">
+    <div class="center">
+      <h1 align="center"> Interests </h1>    
+    </div>
+  </section>
+
+  <section id="contact-section" class="body">
+    <div class="center">
+      <h1 align="center"> Contact Me </h1>
+      <p align="center"> Email: bsande6@g.clemson.edu </p>
+    </div>
+      
+    </div>
+  </section>
+
 </body>
 </html>
+
+<!-- https://www.w3schools.com/howto/howto_css_timeline.asp -->
