@@ -102,6 +102,7 @@ width: 100%;
 }
 
 section {
+clear: both;
 font-family: sans-serif;
 height: 100%;
 width: 100%;
